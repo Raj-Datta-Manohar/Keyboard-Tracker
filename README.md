@@ -10,10 +10,11 @@ This application is available for Windows and Linux Operating Systems
 
 ### Windows  
 > Goto releases and download the zip file and extract it on your computer  
-> Download a C++ compiler with Win32 API preferably [MinGW](https://sourceforge.net/projects/mingw/files/MinGW/Base/w32api/)
-> Open Command Prompt and move to the path where the folder is extracted. For Example, `cd C:\Downloads\Keyboard-Tracker\windows`  
-> Now Type `g++ main.cpp` and hit Enter  
-> The Tracker should start running, verify by below step.  
+> Download Visual Studio C++ from [here](https://visualstudio.microsoft.com/vs/features/cplusplus/)  
+> Create a new `Windows Project` in Visual Studio  
+> Replace the cpp file with `main.cpp` from downloaded folder  
+> Go To Build and click on build. A .exe file is generated, run the executable file  
+> The Tracker should start running, verify this with below step.  
 > To see the tracker log, Goto `C:\Users\<UserName>\AppData\Roaming\WinmpeT\log.sys`  
 > Open the log.sys file with notepad  
 > Note: `AppData` folder may be hidden, make sure to unhide it
@@ -26,7 +27,12 @@ This application is available for Windows and Linux Operating Systems
 ### Linux
 > Application for Linux OS's is still under development  
 
-`Make sure to visit this repo frequently for updates and fixes`  
+`Make sure to visit this repo frequently for updates and fixes`
+
+### Some Use Cases of Keyboard Tracker are:  
+Keeping track of your personal computer  
+Parental control  
+Administrative control  
 
 ### For Developers
 If you are not familiar with Win32 API, [this](https://docs.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows) is a good place to start.  
