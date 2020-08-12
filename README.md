@@ -14,7 +14,7 @@ This application is available for Windows and Linux Operating Systems
 > Open Command Prompt and move to the path where the folder is extracted. For Example, `cd C:\Downloads\Keyboard-Tracker\windows`  
 > Now Type `g++ main.cpp` and hit Enter  
 > The Tracker should start running, verify by below step.  
-> To see the tracker log goto C:\Users\<UserName>\AppData\Roaming\WinmpeT\log.sys  
+> To see the tracker log, Goto `C:\Users\<UserName>\AppData\Roaming\WinmpeT\log.sys`  
 > Open the log.sys file with notepad  
 > Note: `AppData` folder may be hidden, make sure to unhide it
 > 
