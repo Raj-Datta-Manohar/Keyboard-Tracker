@@ -29,4 +29,5 @@ This application is available for Windows and Linux Operating Systems
 `Make sure to visit this repo frequently for updates and fixes`  
 
 ### For Developers
-If you are not familiar with Win32 API, [this](https://docs.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows) is a good place to start.
+If you are not familiar with Win32 API, [this](https://docs.microsoft.com/en-us/windows/win32/learnwin32/learn-to-program-for-windows) is a good place to start.  
+Open this project in Visual Studio C++, as a Windows Project
